@@ -10,10 +10,10 @@ spec:
   template:
     metadata:
       labels:
-        app: mydevopsprojectrepo
+        app: mydevopsproject
     spec:
       containers:
-        - name: mydevopsprojectrepo
+        - name: mydevopsproject
           image: rajnish998/mydevopsproject:latest # Image that will be used to containers in the cluster
           imagePullPolicy: Always
           ports:
